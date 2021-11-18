@@ -1,5 +1,6 @@
 body{
-  background-image: url('https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
+  background-image: url(' https://thinkblueai.com/wp-content/uploads/2019/05/BlueDotTech-1920x701.jpg'); 
+  /*Setting the background image. Ypu can change this by changing the link!*/ 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,18 +20,18 @@ body{
     overflow: hidden;
     padding: 0rem;
     margin: 0rem;
-    background-image: linear-gradient(-45deg, #252d48 10%, #303e6a 50%, #27323d 100%);  
+    background-image: linear-gradient(-45deg, #5B85E9 10%, #6E95F3 50%, #3C6FE9 100%);  
 }
   
 
 /* for classes that we specify include a '.' before class name */
   .box1 {
-    border: 2px solid blue; /* px is unit of measurement in pixels */
+    border: 3px solid gray; /* px is unit of measurement in pixels */
     border-radius: 10px;
     padding: 0rem 2rem 1rem 2rem;
     margin-bottom: 2.5rem;
     color: white; /*text color*/
-    background: rgb(46, 46, 46, 0.6);/* you can find the color combination online - google css color picker. The last value (0.6) is the opacity */
+    background: rgb(46, 46, 46, 0.4);/* you can find the color combination online - google css color picker. The last value (0.6) is the opacity */
   }
 
   .box2 { 
@@ -59,7 +60,7 @@ body{
    padding: 2rem ;
    margin: auto;
    width: 50%;
-   font-size: 1.75vw;
+   font-size: 2vw;
 }
 
 h2 {
@@ -83,7 +84,7 @@ p2 {
 
 .btn {
   text-align: center;
-  font-size: 0.9vw;
+  font-size: 1.2vw;
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 10px;
@@ -93,7 +94,8 @@ p2 {
 }
 
 .btn:hover {
-  box-shadow: 6px 8px #636363;
+  box-shadow: 6px 8px #9EBBFF;
+  font-size: 1.5vw;
   cursor: pointer;
   font-weight: bold;
 }

@@ -70,12 +70,20 @@ h2 {
 
 p1 { 
    color: white;
+   font-size: 20px;
 } 
 
 p2 {
   color: white;
   font-size: 10px;
 }
+
+p3 { 
+   color: white;
+   font-size: 25px;
+   font-weight: bold;
+
+} 
 
 .center {
   margin: auto;
